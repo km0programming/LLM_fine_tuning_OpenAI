@@ -19,7 +19,7 @@ completion = client.chat.completions.create(
   messages=[
     {"role": "system", "content": "You are a helpful assistant."},
     # {"role": "user", "content": "Please list the most important newspapers in Spain?"}
-    {"role": "user", "content": "Please give me the Spanish recipe for 'pork cheeks in red wine'?"}
+    {"role": "user", "content": "Tell me something about Mercedes-Benz'?"}
   ]
 )
 
