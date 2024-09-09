@@ -3,9 +3,11 @@ from openai import OpenAI
 
 OPENAI_API_KEY = os.environ.get('OPENAI_API_KEY')
 
-# print(OPENAI_API_KEY)
+print(OPENAI_API_KEY)
 
 import openai
+
+
 
 # print(openai.__version__)
 
